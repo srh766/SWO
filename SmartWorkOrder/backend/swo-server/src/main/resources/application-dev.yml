@@ -1,0 +1,4 @@
+logging:
+  level:
+    com.swo: debug
+    com.swo.mapper: debug

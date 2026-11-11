@@ -1,0 +1,49 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 本地工具与个人配置
+.arts/
+.codeartsdoer/
+.claude/
+
+# 构建产物
+**/target/
+**/dist/
+**/node_modules/
+
+# 运行产物
+uploads/
+logs/
+*.log
+
+# 环境变量与密钥
+.env
+.env.*
+!.env.example
+!.env.*.example
+!/SmartWorkOrder/frontend/.env.development
+!/SmartWorkOrder/frontend/.env.production
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 本地数据库与索引文件
+*.db
+*.sqlite3
+
+# 系统文件
+.DS_Store
+Thumbs.db
